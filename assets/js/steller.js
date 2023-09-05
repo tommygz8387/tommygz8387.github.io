@@ -13,10 +13,10 @@
 */
 
 // smooth scroll
-$(document).ready(function(){
-	$(".nav-link").on('click', function(event) {
+$(document).ready(function () {
+	$(".nav-link").on('click', function (event) {
 
-    	if (this.hash !== "") {
+		if (this.hash !== "") {
 
 			event.preventDefault();
 
@@ -24,9 +24,20 @@ $(document).ready(function(){
 
 			$('html, body').animate({
 				scrollTop: $(hash).offset().top
-			}, 700, function(){
+			}, 700, function () {
 				window.location.hash = hash;
 			});
-      	} 
-    });
+		}
+	});
+
+	var images = $('.image_list li');
+	var selected = $('.image_selected img');
+
+	images.each(function () {
+		var image = $(this);
+		image.on('click', function () {
+			var imagePath = new String(image.data('image'));
+			selected.attr('src', imagePath);
+		});
+	});
 });
