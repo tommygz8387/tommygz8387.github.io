@@ -12103,13 +12103,13 @@ h6 {
 }
 
 .subtitle {
-  font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(10px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
   opacity: .8;
 }
 
 @media (min-width: 992px) {
   .subtitle {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -12772,11 +12772,11 @@ pre {
 }
 
 .marmax {
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 
 .single_product {
-  padding-top: 110px;
+  padding-top: 70px;
   padding-bottom: 140px;
 }
 
