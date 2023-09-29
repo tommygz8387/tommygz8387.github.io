@@ -12849,6 +12849,12 @@ pre {
   margin-bottom: 0px;
 }
 
+.obj-img{
+  width: 90%;
+  object-fit: cover;
+  margin-left: 10rem;
+}
+
 @media only screen and (max-width: 1199px) {
   .image_list li {
     height: 130px;

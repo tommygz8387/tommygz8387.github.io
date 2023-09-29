@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="This is TommyGz personal page.">
     <meta name="author" content="tommygz8387">
-    <meta http-equiv="Refresh" content="0; url='uc/index.html'" />
+    <!-- <meta http-equiv="Refresh" content="0; url='uc/index.html'" /> -->
     <title>Tommy Ghazali | Personal Pages</title>
     <link rel="shortcut icon" href="assets/imgs/logo1.svg">
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
     <link rel="stylesheet" href="assets/css/steller.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -20,7 +21,7 @@
     <!-- Page navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo.png" alt="tgz logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -61,18 +62,25 @@
                 <p class="mt-1">Junior Backend Developer</p>
 
                 <div class="buttons pt-3">
-                    <a href="https://api.whatsapp.com/send?phone=6281293430686&text=" target="_blank" class="btn btn-primary rounded">HIRE ME</a>
-                    <a href="https://drive.google.com/drive/folders/" target="_blank" class="btn btn-dark rounded">DOWNLOAD CV</a>
+                    <a href="https://api.whatsapp.com/send?phone=6281293430686&text=" target="_blank"
+                        class="btn btn-primary rounded">HIRE ME</a>
+                    <a href="https://drive.google.com/drive/folders/" target="_blank"
+                        class="btn btn-dark rounded">DOWNLOAD CV</a>
                 </div>
 
                 <div class="socials mt-4">
-                    <a class="social-item" target="_blank" href="https://www.linkedin.com/in/tommyghazali"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" target="_blank" href="https://github.com/tommygz8387"><i class="ti-github"></i></a>
-                    <a class="social-item" target="_blank" href="https://www.instagram.com/tmy.gz/"><i class="ti-instagram"></i></a>
+                    <a class="social-item" target="_blank" href="https://www.linkedin.com/in/tommyghazali"><i
+                            class="ti-linkedin"></i></a>
+                    <a class="social-item" target="_blank" href="https://github.com/tommygz8387"><i
+                            class="ti-github"></i></a>
+                    <a class="social-item" target="_blank" href="https://www.instagram.com/tmy.gz/"><i
+                            class="ti-instagram"></i></a>
                 </div>
             </div>
             <div class="img-holder">
-                <img src="assets/imgs/bro.svg" alt="">
+                <object class="obj-img" type="image/svg+xml" data="assets/imgs/bro2.svg">
+                    <img src="assets/imgs/bro2.svg" alt="banner">
+                </object>
             </div>
         </div>
 
@@ -83,7 +91,7 @@
                 <p>BE Experience</p>
             </div>
             <div class="widget-item">
-                <h2>4</h2>
+                <h2>6</h2>
                 <p>Project Completed</p>
             </div>
             <div class="widget-item">
@@ -95,16 +103,17 @@
     <!-- End of Page Header -->
 
     <!-- About section -->
-    <section id="about" class="section mt-3">
+    <section id="about" class="section mt-3" data-aos="fade-up">
         <div class="container mt-5">
             <div class="row text-center text-md-left">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-right">
                     <img src="assets/imgs/ava.jpg" alt="" class="img-thumbnail mb-4">
                 </div>
-                <div class="pl-md-4 col-md-9">
+                <div class="pl-md-4 col-md-9" data-aos="fade-left">
                     <h6 class="title">Tommy Ghazali</h6>
                     <p class="subtitle">Junior Backend Developer</p>
-                    <p>A Fresh Graduate with a bachelor's degree majoring in Informatics Engineering at Pamulang University with a satisfying GPA of 3.55 / 4. Focuses on Web Development,
+                    <p>A Fresh Graduate with a bachelor's degree majoring in Informatics Engineering at Pamulang
+                        University with a satisfying GPA of 3.55 / 4. Focuses on Web Development,
                         especially Backend and proficient in using Laravel and Express to create websites or APIs.</p>
                     <p>Has a little background in the field of
                         design because am a Vocational High School graduate
@@ -119,12 +128,16 @@
     <!-- Service section -->
     <section id="service" class="section">
         <div class="container text-center">
-            <h6 class="subtitle">Service</h6>
-            <h6 class="section-title mb-4">What I Do</h6>
-            <p class="mb-5 pb-4">As a Web Developer who focuses on the Backend, the services <br/> I offer are something related to Web Development.</p>
+            <div data-aos="fade-up" data-aos-duration="1200">
+                <h6 class="subtitle">Service</h6>
+                <h6 class="section-title mb-4">What I Do</h6>
+                <p class="mb-5 pb-4">As a Web Developer who focuses on the Backend, the services <br /> I offer are
+                    something related to Web Development.</p>
+            </div>
 
             <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
+                <div class="col-sm-6 col-md-3 mb-4" data-aos="fade-up"
+                    data-aos-duration="500">
                     <div class="custom-card card border">
                         <div class="card-body">
                             <i class="icon ti-cloud-up"></i>
@@ -132,7 +145,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 mb-4">
+                <div class="col-sm-6 col-md-3 mb-4" data-aos="fade-up"
+                    data-aos-duration="500" data-aos-delay="100">
                     <div class="custom-card card border">
                         <div class="card-body">
                             <i class="icon ti-desktop"></i>
@@ -140,7 +154,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 mb-4">
+                <div class="col-sm-6 col-md-3 mb-4" data-aos="fade-up"
+                    data-aos-duration="500" data-aos-delay="200">
                     <div class="custom-card card border">
                         <div class="card-body">
                             <i class="icon ti-panel"></i>
@@ -148,7 +163,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 mb-4">
+                <div class="col-sm-6 col-md-3 mb-4" data-aos="fade-up"
+                    data-aos-duration="500" data-aos-delay="300">
                     <div class="custom-card card border">
                         <div class="card-body">
                             <i class="icon ti-server"></i>
@@ -162,12 +178,13 @@
     <!-- End of Sectoin -->
 
     <!-- Skills section -->
-    <section class="section">
+    <section class="section" data-aos="fade-down" data-aos-duration="2000">
         <div class="container text-center">
             <h6 class="subtitle">Skills</h6>
             <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">With the years of experience I have gained from both study and <br/>freelance work, I am confident in my web
-            development skills.</p>
+            <p class="mb-5 pb-4">With the years of experience I have gained from both study and <br />freelance work, I
+                am confident in my web
+                development skills.</p>
 
             <div class="row text-left">
                 <div class="col-sm-6">
@@ -206,38 +223,52 @@
     <!-- Portfolio section -->
     <section id="portfolio" class="section">
         <div class="container text-center">
-            <h6 class="subtitle">Portfolio</h6>
+            <div data-aos="fade-up" data-aos-duration="1200">
+                <h6 class="subtitle">Portfolio</h6>
             <h6 class="section-title mb-4">Check My Wonderful Works</h6>
             <p class="mb-5 pb-4">Here are some of the things I've made during my college and <br>
                 work years that I can share with all of you.</p>
+            </div>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-1.png" alt="">
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="200">
+                        <img src="assets/imgs/thumbnail/twb.jpg" alt="twibbonize marketplace">
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Twibbonize Marketplace</h5>
-                                <a href="project/kjasyd7as9d8aujh.html"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="project/marketplace-twb.html"><i class="ti-zoom-in"></i></a>
+                                <a href="https://marketplace.twibbonize.com" target="_blank"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-2.png" alt="">
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="800">
+                        <img src="assets/imgs/thumbnail/ss.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>SinggahSini</h5>
+                                <a href="project/ss.html"><i class="ti-zoom-in"></i></a>
+                                <a href="https://singgahsini.com/" target="_blank"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-8.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="400">
+                        <img src="assets/imgs/thumbnail/sispenma.jpg" alt="sistem penjadwalan belajar mengajar">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Project Title</h5>
+                                <h5>Sispenma</h5>
+                                <a href="project/sispenma.html"><i class="ti-zoom-in"></i></a>
+                                <a href="https://github.com/tommygz8387/skripsi" target="_blank"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="1000">
+                        <img src="assets/imgs/thumbnail/trmob.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Toko Reza Mobile</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
                             </div>
@@ -245,63 +276,21 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-3.png" alt="">
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="600">
+                        <img src="assets/imgs/thumbnail/ssa2.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>SinggahSiniAja</h5>
+                                <a href="project/ssa.html"><i class="ti-zoom-in"></i></a>
+                                <a href="https://singgahsiniaja.com/" target="_blank"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-4.png" alt="">
+                    <div class="img-wrapper" data-aos="zoom-in-up" data-aos-delay="1200">
+                        <img src="assets/imgs/thumbnail/tokoku.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-8.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-5.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-6.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/thumbnail/porto-7.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
+                                <h5>Tokoku</h5>
                                 <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
                                 <a href="javascript:void(0)"><i class="ti-link"></i></a>
                             </div>
@@ -325,7 +314,8 @@
                             <p class="mb-3">You can contact me to hire or just to ask questions</p>
                         </div>
                         <div class="col-sm-3 text-center text-sm-right">
-                            <a href="https://api.whatsapp.com/send?phone=6281293430686&text=" target="_blank" class="btn btn-light rounded">Hire Me!</a>
+                            <a href="https://api.whatsapp.com/send?phone=6281293430686&text=" target="_blank"
+                                class="btn btn-light rounded">Hire Me!</a>
                         </div>
                     </div>
                 </div>
@@ -342,7 +332,6 @@
 
             <div class="contact text-left">
                 <div class="form">
-                    <h6 class="section-title mb-4">Message me here, or..</h6>
                     <div id="disqus_thread"></div>
                 </div>
                 <div class="contact-infos">
@@ -388,10 +377,14 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
-                        <a class="social-item" target="_blank" href="https://www.linkedin.com/in/tommyghazali"><i class="ti-linkedin"></i></a>
-                        <a class="social-item" target="_blank" href="mailto:tommy.gz.8387@gmail.com"><i class="ti-google"></i></a>
-                        <a class="social-item" target="_blank" href="https://github.com/tommygz8387"><i class="ti-github"></i></a>
-                        <a class="social-item" target="_blank" href="https://www.instagram.com/tmy.gz/"><i class="ti-instagram"></i></a>
+                        <a class="social-item" target="_blank" href="https://www.linkedin.com/in/tommyghazali"><i
+                                class="ti-linkedin"></i></a>
+                        <a class="social-item" target="_blank" href="mailto:tommy.gz.8387@gmail.com"><i
+                                class="ti-google"></i></a>
+                        <a class="social-item" target="_blank" href="https://github.com/tommygz8387"><i
+                                class="ti-github"></i></a>
+                        <a class="social-item" target="_blank" href="https://www.instagram.com/tmy.gz/"><i
+                                class="ti-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -404,25 +397,30 @@
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
     <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://toms-personalpages.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://toms-personalpages.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
             Disqus.</a></noscript>
